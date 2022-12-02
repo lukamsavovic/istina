@@ -12,7 +12,119 @@
     "scene" : 0,
     "scenes" : [
         {
-            "name" : "Scene"
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object003",
+            "rotation" : [
+                -0.7053722143173218,
+                -0.049498043954372406,
+                0.04949802905321121,
+                0.7053722143173218
+            ],
+            "scale" : [
+                66.89076232910156,
+                47.47026443481445,
+                42.903446197509766
+            ],
+            "translation" : [
+                -73.77200317382812,
+                -72.51824188232422,
+                -33.771915435791016
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "uploads_files_2015339_Human_Lung_Low_Poly_default.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8627451062202454,
+                    0.8627451062202454,
+                    0.8627451062202454,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 815832,
+            "max" : [
+                3.2693915367126465,
+                -0.7622841000556946,
+                3.273238182067871
+            ],
+            "min" : [
+                0.28081053495407104,
+                -1.7153164148330688,
+                -0.9026184678077698
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 815832,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 815832,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 815832,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4592228,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4592228,
+            "uri" : "untitled.bin"
         }
     ]
 }
